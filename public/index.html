@@ -7,7 +7,7 @@
 </head>
 
 <style>
-div {
+form {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
@@ -38,14 +38,13 @@ h1 {
     text-align: center;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
 </style>
 
 <body>
 
     <h1>ToDo app</h1>
 
-    <div class="ujTodo">
+    <form>
         <label>Feladat megnevezése:</label><br>
         <input type="text" id="feladat"><br><br>
     
@@ -56,16 +55,13 @@ h1 {
         <label for="kesz">Kész</label><br><br>
     
         <button id="hozzaad">Hozzáadás</button><br><br>
-    </div>
 
-    <div class="todoTorles">
         <label>A feladat ID-ja:</label><br>
         <input type="text" id="feladatId"><br><br>
 
         <button id="torol">Törlés</button><br><br>
-    </div>
 
     <button id="listazas">Feladatok listázása</button>
-
+    </form>
 </body>
 </html>
